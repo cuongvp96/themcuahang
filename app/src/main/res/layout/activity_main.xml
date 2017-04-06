@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <EditText
+        android:id="@+id/edTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ten cua hang" />
+
+    <EditText
+        android:id="@+id/edLoaiGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="loai gas" />
+
+    <EditText
+        android:id="@+id/edMota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá dao động"></EditText>
+
+    <EditText
+        android:id="@+id/edSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sdt"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edChucuahang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chu cua hang"
+        />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tiep >> "
+
+        />
+
+
+</LinearLayout>
